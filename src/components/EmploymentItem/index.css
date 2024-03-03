@@ -1,0 +1,15 @@
+.employment-type-item {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .checkbox {
+    height: 16px;
+    width: 16px;
+  }
+
+  .employment-type-item {
+    margin-bottom: 8px;
+  }
+}

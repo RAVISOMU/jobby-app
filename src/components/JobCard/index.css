@@ -1,0 +1,179 @@
+.job-item {
+  background-color: #202020;
+  width: 100%;
+  border-radius: 12px;
+  padding: 24px 16px;
+  margin-bottom: 16px;
+}
+
+.title-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 46px;
+  height: 46px;
+}
+
+.title-rating-container {
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 8px;
+  margin: 0px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  color: #fbbf24;
+  height: 14px;
+  width: 14px;
+  margin-right: 4px;
+}
+
+.rating {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  margin: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 2px;
+}
+
+.location-employment-package-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.location-employment-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 14px;
+}
+
+.employment-container {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.location-icon {
+  height: 18px;
+  width: 18px;
+  color: #ffffff;
+  margin-right: 2px;
+}
+
+.location {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #f1f5f9;
+}
+
+.employment-type {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #f1f5f9;
+}
+
+.package-per-annum {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f8fafc;
+}
+
+.description-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.job-description {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  color: #f1f5f9;
+}
+
+.job-card-hr-line {
+  width: 100%;
+  color: #2c364c;
+}
+
+@media screen and (min-width: 768px) {
+  .company-logo {
+    height: 56px;
+    width: 56px;
+  }
+
+  .job-item {
+    margin-bottom: 24px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .star-icon {
+    height: 18px;
+    width: 18px;
+  }
+
+  .rating-container {
+    margin-top: 8px;
+  }
+
+  .rating {
+    font-size: 18px;
+  }
+
+  .location-icon {
+    height: 24px;
+    width: 24px;
+    margin-right: 6px;
+  }
+
+  .briefcase-icon {
+    height: 24px;
+    width: 24px;
+    margin-right: 6px;
+  }
+
+  .description-text {
+    font-size: 24px;
+  }
+
+  .job-description {
+    font-size: 18px;
+  }
+
+  .location-employment-container {
+    margin-top: 16px;
+  }
+}
+
+.jobs-link {
+  text-decoration: none;
+}

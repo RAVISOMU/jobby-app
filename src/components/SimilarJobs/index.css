@@ -1,0 +1,10 @@
+.similar-jobs-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.similar-jobs-list {
+  list-style-type: none;
+  padding-left: 0px;
+}

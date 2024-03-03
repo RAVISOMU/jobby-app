@@ -1,0 +1,35 @@
+.skill-item {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.skill-image {
+  height: 24px;
+  width: 24px;
+  margin-right: 6px;
+}
+
+.skill-name {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #f1f5f9;
+}
+
+@media screen and (min-width: 768px) {
+  .skill-item {
+    width: 30%;
+  }
+
+  .skill-image {
+    height: 36px;
+    width: 36px;
+    margin-right: 10px;
+  }
+
+  .skill-name {
+    font-size: 20px;
+  }
+}
